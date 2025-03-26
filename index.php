@@ -63,7 +63,7 @@
         </ul>
     </div>
     <footer>
-        <p class="centre">&copy; 2025 Sailopa Falemaka Test.</p>
+        <p class="centre">&copy; 2025 Sailopa Falemaka.</p>
     </footer>
 </body>
 </html>
