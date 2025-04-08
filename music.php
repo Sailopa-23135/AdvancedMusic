@@ -7,21 +7,9 @@
     <title>Digital Media. Advanced Websites</title>
 </head>
 <body>
-    <header>
-        <figure>
-            <img src="images/lc-mint.png" width="100" alt="Learn Coach Logo.">
-        </figure>
-        <h1>Digital Media. Advanced Websites</h1>
-    </header>
-    <nav>
-        <label for="navCheck"><i class="fas fa-bars"></i></label>
-        <input type="checkbox" id="navCheck">         
-        <div id="menuItems">
-            <p><a href="index.php">Home</a></p>
-            <p><a href="music.php">Music</a></p>
-            <p><a href="addMusic.php">Add Music</a></p>
-        </div>
-    </nav>
+<?php
+         include_once('header.php')
+         ?>
     <div class="main" role="main">
         <!-- Sort Form -->
         <form id="sortForm" action="music.php" method="post">
@@ -74,8 +62,8 @@
             echo '</section>';
             ?>
     </div>
-    <footer>
-        <p class="centre">&copy; 2025 Sailopa Falemaka.</p>
-    </footer>
+    <?php
+         include_once('footer.php')
+         ?>
 </body>
 </html>
